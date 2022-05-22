@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <van-search v-model="searchVal" shape="round" background="" placeholder="请输入搜索关键词" disabled />
+    <van-search v-model="searchVal" shape="round" background="#fff" placeholder="请输入搜索关键词" disabled />
   </div>
 </template>
 
