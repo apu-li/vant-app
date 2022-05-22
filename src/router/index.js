@@ -7,8 +7,19 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: '/',
+    redirect: '/home',
+  },
+  {
+    path: '/home',
     name: 'home',
     component: Home,
+    children: [
+      {
+        path: '/home/searchPopup',
+        name: 'searchPopup',
+        component: () => import(/* webpackChunkName: "about" */ '../views/SearchPopup.vue'),
+      },
+    ],
   },
   {
     path: '/about',
