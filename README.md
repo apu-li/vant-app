@@ -1,19 +1,5 @@
 # vant-app
 
-## Project setup
-```
-npm install
-```
+## 2022 年 5 月 22 日 第一天
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. 安装 vantui 以及配置
