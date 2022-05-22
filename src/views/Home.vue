@@ -1,16 +1,16 @@
 <template>
   <div class="home">
-    <van-button type="primary">主要按钮</van-button>
+    <van-search v-model="searchVal" shape="round" background="" placeholder="请输入搜索关键词" disabled />
   </div>
 </template>
 
 <script>
-// import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
   name: 'HomeView',
-  components: {
-    // HelloWorld
+  data() {
+    return {
+      searchVal: '',
+    };
   },
 };
 </script>

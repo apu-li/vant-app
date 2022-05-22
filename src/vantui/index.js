@@ -1,6 +1,6 @@
 import Vue from 'vue';
 // 按需引入组件
-import { Search, Swipe, SwipeItem, Button } from 'vant';
+import { Search, Swipe, SwipeItem } from 'vant';
 
 // 目前项目已经配置好自动按需引入样式
 // 手动按需引入：
@@ -13,4 +13,3 @@ import { Search, Swipe, SwipeItem, Button } from 'vant';
 Vue.use(Search);
 Vue.use(Swipe);
 Vue.use(SwipeItem);
-Vue.use(Button);
