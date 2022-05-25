@@ -1,13 +1,23 @@
 <template>
   <div id="app">
     <router-view />
+    <AppTabBar />
   </div>
 </template>
+
+<script>
+import AppTabBar from '@/components/AppTabBar.vue';
+export default {
+  components: {
+    AppTabBar,
+  },
+};
+</script>
 
 <style lang="less">
 #app {
   background-color: #efefef;
-  height: 100%;
+  min-height: 100%;
   font-size: 0.14rem;
 }
 // 小坑 直接在app加高百分百还是不生效的 需要他的父级也添加

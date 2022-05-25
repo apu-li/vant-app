@@ -6,6 +6,10 @@ import './vantui';
 import 'reset-css';
 
 Vue.config.productionTip = false;
+// 全局过滤器
+Vue.filter('RMBformat', val => {
+  return `￥ ${Number(val).toFixed(2)} 元 `;
+});
 
 new Vue({
   router,

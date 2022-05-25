@@ -1,6 +1,25 @@
 import Vue from 'vue';
 // 按需引入组件
-import { Search, Swipe, SwipeItem } from 'vant';
+import {
+  Search,
+  Swipe,
+  SwipeItem,
+  Icon,
+  Tag,
+  List,
+  Cell,
+  DropdownMenu,
+  DropdownItem,
+  Empty,
+  Grid,
+  GridItem,
+  Card,
+  Tabbar,
+  TabbarItem,
+  Lazyload,
+  Pagination,
+  Toast,
+} from 'vant';
 
 // 目前项目已经配置好自动按需引入样式
 // 手动按需引入：
@@ -13,3 +32,20 @@ import { Search, Swipe, SwipeItem } from 'vant';
 Vue.use(Search);
 Vue.use(Swipe);
 Vue.use(SwipeItem);
+Vue.use(Icon);
+Vue.use(Tag);
+Vue.use(List);
+Vue.use(Cell);
+Vue.use(DropdownMenu);
+Vue.use(DropdownItem);
+Vue.use(Empty);
+Vue.use(Grid);
+Vue.use(GridItem);
+Vue.use(Card);
+Vue.use(Tabbar);
+Vue.use(TabbarItem);
+Vue.use(Lazyload, {
+  lazyComponent: true,
+});
+Vue.use(Pagination);
+Vue.use(Toast);
