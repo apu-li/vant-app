@@ -23,3 +23,6 @@ export const TopicDataAPI = parmas => axios.get('/topic/list', parmas);
 
 // 清除历史记录的请求
 export const ClearHistoryAPI = () => axios.post('/search/clearhistory');
+
+// 请求登录 /auth/loginByWeb
+export const LoginAPI = params => axios.post('/auth/loginByWeb', params);

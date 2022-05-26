@@ -19,6 +19,12 @@ import {
   Lazyload,
   Pagination,
   Toast,
+  Col,
+  Row,
+  Popup,
+  Form,
+  Field,
+  Button,
 } from 'vant';
 
 // 目前项目已经配置好自动按需引入样式
@@ -49,3 +55,9 @@ Vue.use(Lazyload, {
 });
 Vue.use(Pagination);
 Vue.use(Toast);
+Vue.use(Col);
+Vue.use(Row);
+Vue.use(Popup);
+Vue.use(Form);
+Vue.use(Field);
+Vue.use(Button);
